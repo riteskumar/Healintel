@@ -10,9 +10,9 @@ import React, { useState } from 'react'
 import ChatComponent from '@/components/ChatComponent'
 
 
-type Props = {}
+// type Props = {}
 
-const Home = (props: Props) => {
+const Home = () => {
   const [reportData, setreportData] = useState("")
   const {toast} = useToast();
   const onReportConfirmation = (data:string)=>{
